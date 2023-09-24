@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"strict": true,
+		"jsx": "react-jsx",
+		"jsxImportSource": "react",
+		"types": ["bun-types", "react/experimental"]
+	}
+}

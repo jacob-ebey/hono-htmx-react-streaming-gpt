@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "dev": "DEV=1 bun run --hot src/index.tsx",
+    "build:styles": "tailwindcss -o static/styles.css"
+  },
+  "dependencies": {
+    "hono": "^3.6.0",
+    "openai": "^4.10.0",
+    "react": "experimental",
+    "react-dom": "experimental"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.2.2",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "bun-types": "^0.6.2",
+    "htmx.org": "^1.9.6",
+    "tailwindcss": "^3.3.3"
+  }
+}
